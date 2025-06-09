@@ -1,0 +1,41 @@
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+}
+.type-heading{
+    font-size: medium;
+    font-weight: 500;
+}
+.type-item{
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.horizantal-line{
+     background-color: aliceblue;
+    font-weight:900;
+    width: 100%;
+    margin-top: 20px;
+}
+@media (min-width: 768px){    
+.filter-container{
+   padding: 30px;
+   gap: 15px;
+
+}
+
+
+.horizantal-line {
+    height: 1px;
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 20px;
+}
+.type-heading{
+    font-size: larger;
+}
+
+}

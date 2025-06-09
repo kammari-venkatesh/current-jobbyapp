@@ -1,0 +1,305 @@
+.jobitemdetails-container{
+ display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0px;
+    background-color: black;
+
+
+
+}
+.failureview-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.heading{
+    font-size: large;
+}
+.failure-para{
+    font-size: medium;
+    text-align: center;
+}
+.failureview-image{
+    height: 250px;
+    width: 300px;
+}
+.jobitemdetails{
+    padding: 25px;
+    width: 100vw;
+}
+.jobdetails-container{
+ 
+     background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+   
+}
+.image-and-rating{
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+.campany-logo{
+    height: 60px;
+    width: 65px;
+}
+.title{
+    font-size: larger;
+    font-weight: bold;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+    font-size: large;
+
+}
+
+.image-container{
+    padding: 10px;
+}
+.star{
+    color:gold;
+    font-size: larger;
+}
+.horizontal-line{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+.location-role{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.similarjobs-heading{
+    font-size: x-large;
+    font-weight: 500;
+}
+.location{
+    font-size: medium;
+    font-weight: 700;
+}
+.icon-work{
+    margin-left: 8px;
+}
+.mini-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+}
+.description{
+    font-weight: 600;
+    font-size: large;
+
+}
+.details{
+    font-size: medium
+    ;
+    font-weight: 500;
+
+}
+.descripton-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.visitlink{
+    font-size: large;
+
+}
+.linkicon{
+    font-size: small;
+    margin-left: 5px;
+}
+.skills-heading{
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: 700;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skilldiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.skill-image{
+    height: 30px;
+    width: 30px;
+}
+
+.loader{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.skill-name{
+    font-size: larger;
+    font-weight: 700;
+}
+.lifeatcompany-container{
+    display: flex;
+    flex-direction:column;
+
+}
+.company-description{
+    font-size: large;
+    font-weight: 500;
+    width: 100%;
+}
+.company-image{
+    height: 230px;
+    width: 400px;
+    border-radius: 10px;
+    width: 100%;
+}
+.similarjob-cards{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (min-width:768px){
+  .jobitemdetails{
+    padding:60px 60px;
+    width: 100vw;
+}
+.jobdetails-container{
+    padding: 35px ;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.title{
+    font-size: x-large;
+}
+.image-and-rating{
+   
+    gap:20px;
+}
+.campany-logo{
+    height: 80px;
+    width: 72px;
+}
+.location-role{
+    gap: 15px;
+
+}
+.location{
+    font-size: large;
+}
+.description{
+    font-size: xx-large;
+}
+.descripton-container{
+    padding: 10px;
+}
+.details{
+    font-size: x-large;
+    font-weight: 400;
+}
+.main{
+   margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.linkicon{
+    font-size: medium;
+}
+.visitlink{
+    font-size: x-large;
+}
+.skills-heading{
+    font-size: xx-large;
+}
+.skilldiv{
+     gap: 20px;
+    width: 33%;
+    margin-bottom: 30px;
+}
+.skill-image{
+    height: 40px;
+    width: 40px;
+}
+.skill-name{
+    font-size: large;
+    font-weight: 500;
+}
+.lifeatcompany-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+.company-description{
+    font-size:29px;
+    font-weight: 400;
+    width: 60%;
+    position: relative;
+    bottom: 30px;
+
+}
+.company-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+ 
+}
+.similarjob-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.failureview-container{
+ 
+    gap: 20px;
+   
+    align-items: center;
+    
+    margin-top: 70px;
+}
+.heading{
+    font-size: xx-large;
+}
+.failure-para{
+    font-size: large;
+    text-align: center;
+}
+.failureview-image{
+    height: 350px;
+    width: 450px;
+}
+
+.break{
+    display: none;
+}
+
+}

@@ -1,0 +1,82 @@
+
+.similar-card{
+    background-color: #272727;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.forimageandrating{
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+}
+.company-logo{
+    height: 60px;
+    width: 65px;
+}
+.title{
+    font-size: larger;
+    font-weight: bold;
+}
+.forrating{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 700;
+}
+
+.image-container{
+    padding: 10px;
+}
+.star{
+    color: yellow;
+}
+.description-container{
+    padding:10px;
+}
+.descrip{
+    font-weight: 600;
+    font-size: x-large;
+
+}
+.detail{
+    font-size: medium;
+    font-weight: 400;
+}
+
+.location-role{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+.location{
+    font-size: small;
+    font-weight: 700;
+}
+.icon-work{
+    margin-left: 8px;
+}
+.mini-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+}
+
+@media (min-width : 768px){
+    .similar-card{
+        width: 40%;
+        padding:10px 20px;
+    }
+    .detail{
+        font-size: large;
+    }
+}
